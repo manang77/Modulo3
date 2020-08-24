@@ -40,13 +40,13 @@ function printPriceProduct(lineaProducto) {
     console.log("**** Descripcion Producto ********")
     console.log("Tipo Producto..:", lineaProducto.type);
     console.log("Cantidad.......:", lineaProducto.count);
-    console.log("Precio Unitario:", lineaProducto.price);
+    console.log("Precio Unitario:", lineaProducto.price + "€");
     console.log("**********************************")
     
-    console.log("Importe del articulo......:", importe);
+    console.log("Importe del articulo......:", importe + "€");
     console.log("Tipo IVA a aplicar........:", tipoIVA + "%");
-    console.log("Importe IVA de la compra..:", importeIVA);
-    console.log("Importe total de la compra:", importeTotal);
+    console.log("Importe IVA de la compra..:", importeIVA + "€");
+    console.log("Importe total de la compra:", importeTotal + "€");
     console.log("**********************************")
 }
 
@@ -101,7 +101,7 @@ const empleado = {
 
   console.log("************************ SEGUNDA PARTE ************************************")
   console.log("**** Datos Empleado **************")
-  console.log("Sueldo bruto empleado:", empleado.bruto);
+  console.log("Sueldo bruto empleado:", empleado.bruto + "€");
   console.log("Número de hijos del empleado:", empleado.hijos);
   console.log("Número de pagas del empleado", empleado.pagas);
   console.log("**********************************")
@@ -112,9 +112,9 @@ const empleado = {
   let importeMensual = salarioNeto / empleado.pagas;
 
   console.log("Retención a aplicar al empleado....:", retencionSalario + "%");
-  console.log("Importe de la retención a aplicar..:", importeRetencion);
-  console.log("Salario neto tras aplicar retención:", salarioNeto);
-  console.log("Salario neto mensual (" + empleado.pagas +" pagas)....:", importeMensual);
+  console.log("Importe de la retención a aplicar..:", importeRetencion + "€");
+  console.log("Salario neto tras aplicar retención:", salarioNeto + "€");
+  console.log("Salario neto mensual (" + empleado.pagas +" pagas)....:", importeMensual + "€");
 
   console.log("************************ FIN SEGUNDA PARTE ********************************")
 
