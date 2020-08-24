@@ -22,7 +22,7 @@ printPriceProduct(product3)
 
 console.log("************************ FIN PRIMERA PARTE ********************************")
 
-/* Function: printPriceProduct: Realza los calculos del IVA e imprime por consola los resultados para un producto 
+/* Function: printPriceProduct: Realiza los calculos del IVA e imprime por consola los resultados para un producto 
     - Entrada: 
         articulo: incluye cantidad, precio unitario y tipo
     - Proceso
@@ -96,7 +96,7 @@ function getVAT(articulo) {
 const empleado = {
     bruto: 24001,
     hijos: 1,
-    pagas: 12
+    pagas: 14
   }
 
   console.log("************************ SEGUNDA PARTE ************************************")
@@ -114,7 +114,7 @@ const empleado = {
   console.log("Retención a aplicar al empleado....:", retencionSalario + "%");
   console.log("Importe de la retención a aplicar..:", importeRetencion);
   console.log("Salario neto tras aplicar retención:", salarioNeto);
-  console.log("Salario neto mensual...............:", importeMensual);
+  console.log("Salario neto mensual (" + empleado.pagas +" pagas)....:", importeMensual);
 
   console.log("************************ FIN SEGUNDA PARTE ********************************")
 
